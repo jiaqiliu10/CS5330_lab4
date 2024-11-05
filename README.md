@@ -12,7 +12,7 @@ Follow these steps to run the code in the correct order:
 
 1. **Step 1**
     - **Run python3 image_segmentation.py**
-    Use the get_segmentation_mask function to generate the segmentation mask, then call the save_segmented_person function to save the segmentation result as an image with a transparent background. The output file will be **segmented_person.png**.
+    Use the generate_mask function to generate the segmentation mask, then call the save_transparent_segmentation function to save the segmentation result as an image with a transparent background. The output file will be **segmented_person.png**.
 
 2. **Step 2**
     - **Run python3 insert_stereoscopic.py**
